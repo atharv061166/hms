@@ -1,0 +1,12 @@
+
+/* SignUp specific — uses same design tokens as LoginPage */
+.signup-container { padding: 24px; display:flex; justify-content:center; align-items:center; }
+.signup-card { max-width: 420px; width:100%; background:var(--card-bg, #fff); padding:18px; border-radius:10px; box-shadow:var(--card-shadow, 0 6px 18px rgba(0,0,0,0.08)); }
+.auth-form label { display:block; margin-top:12px; font-size:0.9rem; color:var(--muted,#666); }
+.auth-form input { padding:10px 12px; margin-top:6px; border-radius:6px; border:1px solid #ddd; }
+
+/* Responsive adjustments appended */
+@media (max-width:900px) {
+  .signup-card { padding:14px; }
+  .auth-header { font-size:1.4rem; }
+}
